@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<WebEntity>
+<?xml version="1.0" encoding="UTF-8"?><WebEntity>
+	<entityType>web</entityType>
 	<webSyncUrl>https://rcpsync.github.io/ammeta/meta/websync.xml</webSyncUrl>
 
-	<versionApp>7.7.62</versionApp>
+	<versionApp>7.7.65</versionApp>
 	<versionDbs>7.7.61</versionDbs>
 
 	<baseUrl>https://rcpsync.github.io</baseUrl>
