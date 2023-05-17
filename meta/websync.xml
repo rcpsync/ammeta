@@ -3,7 +3,7 @@
 	<webSyncUrl>https://rcpsync.github.io/ammeta/meta/websync.xml</webSyncUrl>
 
 	<versionApp>7.8.24</versionApp>
-	<versionDbs>7.8.23</versionDbs>
+	<versionDbs>7.8.25</versionDbs>
 
 	<baseUrl>https://rcpsync.github.io</baseUrl>
 	<baseUrlRepository>https://rcpsync.github.io/amrepo/repository</baseUrlRepository>
@@ -49,7 +49,7 @@
 			<moduleName>vpn</moduleName>
 			<fileName>vpn.zip</fileName>
 			<fileDesc>VPN</fileDesc>
-			<version>2022.1211.01</version>
+			<version>2023.0428.01</version>
 		</extModule>
 	</extModule>
 </WebEntity>
