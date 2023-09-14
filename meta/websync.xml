@@ -2,7 +2,7 @@
 	<entityType>web</entityType>
 	<webSyncUrl>https://rcpsync.github.io/ammeta/meta/websync.xml</webSyncUrl>
 
-	<versionApp>7.8.90</versionApp>
+	<versionApp>7.8.91</versionApp>
 	<versionDbs>7.8.89</versionDbs>
 	<reqVersionForUpdate>7.8.64</reqVersionForUpdate>
 
@@ -50,7 +50,7 @@
 			<moduleName>vpn</moduleName>
 			<fileName>vpn.zip</fileName>
 			<fileDesc>VPN</fileDesc>
-			<version>2023.0428.01</version>
+			<version>2023.0915.01</version>
 		</extModule>
 	</extModule>
 </WebEntity>
