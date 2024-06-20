@@ -3,7 +3,7 @@
 	<webSyncUrl>https://rcpsync.github.io/ammeta/meta/websync.xml</webSyncUrl>
 
 	<versionApp>7.9.94</versionApp>
-	<versionDbs>7.9.92</versionDbs>
+	<versionDbs>7.9.95</versionDbs>
 	<reqVersionForUpdate>7.9.73</reqVersionForUpdate>
 
 	<baseUrl>https://rcpsync.github.io</baseUrl>
