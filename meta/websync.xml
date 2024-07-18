@@ -2,7 +2,7 @@
 	<entityType>web</entityType>
 	<webSyncUrl>https://rcpsync.github.io/ammeta/meta/websync.xml</webSyncUrl>
 
-	<versionApp>8.0.21</versionApp>
+	<versionApp>8.0.22</versionApp>
 	<versionDbs>8.0.15</versionDbs>
 	<reqVersionForUpdate>7.9.73</reqVersionForUpdate>
 
