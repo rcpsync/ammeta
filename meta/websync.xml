@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<WebEntity>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><WebEntity>
 	<entityType>web</entityType>
 	<webSyncUrl>https://rcpsync.github.io/ammeta/meta/websync.xml
 	</webSyncUrl>
 
-	<versionApp>8.0.29</versionApp>
+	<versionApp>8.0.30</versionApp>
 	<versionDbs>8.0.15</versionDbs>
 	<reqVersionForUpdate>7.9.73</reqVersionForUpdate>
 
