@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><WebEntity>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WebEntity>
 	<entityType>web</entityType>
-	<webSyncUrl>https://rcpsync.github.io/ammeta/meta/websync.xml</webSyncUrl>
+	<webSyncUrl>https://rcpsync.github.io/ammeta/meta/websync.xml
+	</webSyncUrl>
 
 	<versionApp>8.0.29</versionApp>
 	<versionDbs>8.0.15</versionDbs>
@@ -11,42 +13,54 @@
 	<baseUrlDB>https://rcpsync.github.io/amdbs/dbs</baseUrlDB>
 	<baseUrlExt>https://rcpsync.github.io/amext/ext</baseUrlExt>
 	<baseUrlSubTitle>https://amrcp.xyz/amrcp/subtitle/</baseUrlSubTitle>
-	
+
 	<urlVersionHistory>https://rcpsync.github.io/ammeta/meta/versionHistory.html</urlVersionHistory>
 	<urlRpcService>https://amrcp.xyz/web/rpcService.php</urlRpcService>
-	
+
 	<webViewUrl>https://bitbucket.org/amrcp/distlfs/downloads/WebView2.zip</webViewUrl>
-	
+
 	<extModule>
 		<extModule>
 			<moduleName>model</moduleName>
 			<fileName>deploy.prototxt</fileName>
 			<fileDesc>Face-Proto</fileDesc>
-			<version>2022.1211.01</version>
+			<version>2022.1211.01</version>			
 		</extModule>
 		<extModule>
 			<moduleName>model</moduleName>
 			<fileName>res10_300x300_ssd_iter_140000.caffemodel</fileName>
-			<fileDesc>Face-Model</fileDesc>
-			<version>2022.1211.01</version>
+			<fileDesc>Face-Model</fileDesc>			
 		</extModule>
 		<extModule>
 			<moduleName>model</moduleName>
 			<fileName>deploy_gender.prototxt</fileName>
-			<fileDesc>Gender-Proto</fileDesc>
-			<version>2022.1211.01</version>
+			<fileDesc>Gender-Proto</fileDesc>			
 		</extModule>
 		<extModule>
 			<moduleName>model</moduleName>
 			<fileName>gender_net.caffemodel</fileName>
-			<fileDesc>Gender-Model</fileDesc>
-			<version>2022.1211.01</version>
+			<fileDesc>Gender-Model</fileDesc>			
 		</extModule>
 		<extModule>
 			<moduleName>vlc</moduleName>
 			<fileName>vlc.zip</fileName>
 			<fileDesc>Vlc</fileDesc>
-			<version>2024.0624.01</version>
+			<version>2024.0624.01</version>			
 		</extModule>
 	</extModule>
+	<extModuleDemand>
+		<extModule>
+			<moduleName>webview2</moduleName>
+			<fileName>webview2.zip</fileName>
+			<fileDesc>webview2</fileDesc>
+			<version>2024.0624.01</version>			
+			<url>https://bitbucket.org/amrcp/distlfs/downloads/WebView2.zip</url>
+		</extModule>
+		<extModule>
+			<moduleName>arcface</moduleName>
+			<fileName>arcfaceresnet100-11-int8.onnx</fileName>
+			<fileDesc>arcface</fileDesc>
+			<version>2024.0726.01</version>			
+		</extModule>		
+	</extModuleDemand>
 </WebEntity>
