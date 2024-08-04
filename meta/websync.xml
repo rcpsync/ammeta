@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><WebEntity>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WebEntity>
 	<entityType>web</entityType>
-	<webSyncUrl>https://rcpsync.github.io/ammeta/meta/websync.xml
-	</webSyncUrl>
+	<webSyncUrl>https://rcpsync.github.io/ammeta/meta/websync.xml</webSyncUrl>
 
 	<versionApp>8.0.33</versionApp>
 	<versionDbs>8.0.15</versionDbs>
@@ -61,5 +61,19 @@
 			<fileDesc>arcface</fileDesc>
 			<version>2024.0726.01</version>			
 		</extModule>		
+		<extModule>
+			<moduleName>whispercpp</moduleName>
+			<fileName>ggml-tiny.bin</fileName>
+			<fileDesc>ggml-tiny</fileDesc>
+			<version>2024.0726.01</version>
+			<url>https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.bin?download=true</url>			
+		</extModule>	
+		<extModule>
+			<moduleName>whispercpp</moduleName>
+			<fileName>ggml-small.bin</fileName>
+			<fileDesc>ggml-small</fileDesc>
+			<version>2024.0726.01</version>
+			<url>https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin?download=true</url>			
+		</extModule>						
 	</extModuleDemand>
 </WebEntity>
