@@ -69,10 +69,31 @@
 		</extModule>	
 		<extModule>
 			<moduleName>whispercpp</moduleName>
+			<fileName>ggml-base.bin</fileName>
+			<fileDesc>ggml-base</fileDesc>
+			<version>2024.0726.01</version>
+			<url>https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin?download=true</url>			
+		</extModule>			
+		<extModule>
+			<moduleName>whispercpp</moduleName>
 			<fileName>ggml-small.bin</fileName>
 			<fileDesc>ggml-small</fileDesc>
 			<version>2024.0726.01</version>
 			<url>https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin?download=true</url>			
-		</extModule>						
+		</extModule>
+		<extModule>
+			<moduleName>whispercpp</moduleName>
+			<fileName>ggml-medium.bin</fileName>
+			<fileDesc>ggml-medium</fileDesc>
+			<version>2024.0726.01</version>
+			<url>https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin?download=true</url>			
+		</extModule>	
+		<extModule>
+			<moduleName>whispercpp</moduleName>
+			<fileName>ggml-kotoba-whisper-v1.0.bin</fileName>
+			<fileDesc>ggml-kotoba-whisper-v1.0</fileDesc>
+			<version>2024.0726.01</version>
+			<url>https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-ggml/resolve/main/ggml-kotoba-whisper-v1.0.bin?download=true</url>			
+		</extModule>									
 	</extModuleDemand>
 </WebEntity>
