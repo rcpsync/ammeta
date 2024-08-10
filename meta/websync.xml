@@ -2,7 +2,7 @@
 	<entityType>web</entityType>
 	<webSyncUrl>https://rcpsync.github.io/ammeta/meta/websync.xml</webSyncUrl>
 
-	<versionApp>8.0.53</versionApp>
+	<versionApp>8.0.54</versionApp>
 	<versionDbs>8.0.34</versionDbs>
 	<reqVersionForUpdate>7.9.73</reqVersionForUpdate>
 
@@ -80,22 +80,14 @@
 			<fileDesc>ggml-small</fileDesc>
 			<version>2024.0726.01</version>
 			<url>https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin?download=true</url>			
-		</extModule>
-		<extModule>
-			<moduleName>whispercpp</moduleName>
-			<fileName>ggml-small-q5_1.bin</fileName>
-			<fileDesc>ggml-small-q5</fileDesc>
-			<version>2024.0726.01</version>
-			<url>https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small-q5_1.bin?download=true</url>			
-		</extModule>		
+		</extModule>			
 		<extModule>
 			<moduleName>whispercpp</moduleName>
 			<fileName>ggml-medium.bin</fileName>
 			<fileDesc>ggml-medium</fileDesc>
 			<version>2024.0726.01</version>
 			<url>https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin?download=true</url>			
-		</extModule>		
-		
+		</extModule>			
 		<extModule>
 			<moduleName>whispercpp</moduleName>
 			<fileName>ggml-medium-q5_0.bin</fileName>
@@ -105,8 +97,15 @@
 		</extModule>		
 		<extModule>
 			<moduleName>whispercpp</moduleName>
+			<fileName>ggml-large-v2-q5_0.bin</fileName>
+			<fileDesc>ggml-large-v2-q5</fileDesc>
+			<version>2024.0726.01</version>
+			<url>https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v2-q5_0.bin?download=true</url>			
+		</extModule>		
+		<extModule>
+			<moduleName>whispercpp</moduleName>
 			<fileName>gml-large-v3-q5_0.bin</fileName>
-			<fileDesc>ggml-large-q5</fileDesc>
+			<fileDesc>ggml-large-v3-q5</fileDesc>
 			<version>2024.0726.01</version>
 			<url>https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-q5_0.bin?download=true</url>			
 		</extModule>			
