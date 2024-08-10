@@ -90,6 +90,20 @@
 		</extModule>	
 		<extModule>
 			<moduleName>whispercpp</moduleName>
+			<fileName>ggml-medium.en-q5_0.bin</fileName>
+			<fileDesc>ggml-medium-q5</fileDesc>
+			<version>2024.0726.01</version>
+			<url>https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium-q5_0.bin?download=true</url>			
+		</extModule>			
+		<extModule>
+			<moduleName>whispercpp</moduleName>
+			<fileName>gml-large-v3-q5_0.bin</fileName>
+			<fileDesc>ggml-large-q5</fileDesc>
+			<version>2024.0726.01</version>
+			<url>https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-q5_0.bin?download=true</url>			
+		</extModule>			
+		<extModule>
+			<moduleName>whispercpp</moduleName>
 			<fileName>ggml-kotoba-whisper-v1.0.bin</fileName>
 			<fileDesc>ggml-kotoba-whisper-v1.0</fileDesc>
 			<version>2024.0726.01</version>
