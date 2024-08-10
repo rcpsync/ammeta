@@ -116,6 +116,14 @@
 			<fileDesc>ggml-kotoba-whisper-v1.0</fileDesc>
 			<version>2024.0726.01</version>
 			<url>https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-ggml/resolve/main/ggml-kotoba-whisper-v1.0.bin?download=true</url>			
-		</extModule>									
+		</extModule>							
+		<extModule>
+			<moduleName>whispercpp</moduleName>
+			<fileName>ggml-medium-jp.bin</fileName>
+			<fileDesc>ggml-medium-jp</fileDesc>
+			<version>2024.0726.01</version>
+			<url>https://huggingface.co/vumichien/whisper-medium-jp/resolve/main/ggml-model.bin?download=true</url>			
+		</extModule>			
+				
 	</extModuleDemand>
 </WebEntity>
