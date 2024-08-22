@@ -2,7 +2,7 @@
 	<entityType>web</entityType>
 	<webSyncUrl>https://rcpsync.github.io/ammeta/meta/websync.xml</webSyncUrl>
 
-	<versionApp>8.0.57</versionApp>
+	<versionApp>8.0.59</versionApp>
 	<versionDbs>8.0.58</versionDbs>
 	<reqVersionForUpdate>7.9.73</reqVersionForUpdate>
 
@@ -27,7 +27,7 @@
 		<extModule>
 			<moduleName>model</moduleName>
 			<fileName>res10_300x300_ssd_iter_140000.caffemodel</fileName>
-			<fileDesc>Face-Model</fileDesc>			
+			<fileDesc>Face-Model</fileDesc>	
 		</extModule>
 		<extModule>
 			<moduleName>model</moduleName>
