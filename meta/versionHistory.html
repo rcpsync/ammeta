@@ -45,9 +45,20 @@ span.dbVersion {
 <body>
 	<div id="versionHistory">
 <pre>
+<span class="appVersion">App Ver 8.0.68</span>
+1. DB 속도/성능 개선 <span class="blueBold">업데이트 필수</span>
+   - 미사용하다가 다시 사용할때 반응이 지연되는 현상 Fix
+   - 배우탭등 반응이 때에 따라서 느려지고 속도가 균일하지 않은 사항 Fix  
+   - 종료시 DB분석후 최적화 진행 (다음 실행시에 반영)
+   - 종료시 15일 주기로 단편화된 DB를 정리 (불필요한 영역을 줄이고 조각모음)
+2. AMRCP Data 폴더 접근 권한 문제시 자동 조치
+  - 조치되지 않을 경우, 홈화면 데쉬보드에 알림 처리
+   
+  * 파일 속성에서 관리자 권한 체크하고 실행하면 Data폴더 권한으로 야기되는 문제 발생되지 않음   
+</pre>	
+<pre>
 <span class="appVersion">App Ver 8.0.67</span>
-1. <span class="blueBold">업데이트 필수</span>
-   - 주요한 내부적인 사항들의 변경 및 개선   
+1. 주요한 내부적인 사항들의 변경 및 개선   
    - 파일 처음 로딩시 영상정보 추출 성능/기능 개선 조치 (필수 업데이트)
      (예외적으로 영상 파일 분석에 오류나는 사항들 없도록 조치)
    - 사용자 타임라인 버그 수정 / 인덱싱 개선 및 업그레이드
@@ -80,10 +91,9 @@ span.dbVersion {
 </pre>		
 <pre> 
 <span class="appVersion">App Ver 8.0.60</span>
-1. AMRCP 플레이어 최근 버그 Fix <span class="blueBold">(업데이트 필수)</span>
+1. AMRCP 플레이어 최근 버그 Fix
    - 실행이 안되거나 지연 현상이 생기는 문제 Fix
 2. 환경 설정 관련 개선
-   - <span class="redBold">기존의 모든 설정값이 초기화 됩니다.</span>   
 </pre>			
 <pre>
 <span class="dbVersion">DB Ver 8.0.58</span>
