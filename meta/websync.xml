@@ -125,17 +125,17 @@
 		</extModule>				
 		<extModule>
 			<moduleName>whispercpp</moduleName>
-			<fileName>ggml-kotoba-whisper-v1.0.bin</fileName>
-			<fileDesc>ggml-kotoba-whisper-v1.0</fileDesc>
-			<version>2024.0726.01</version>
-			<url>https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-ggml/resolve/main/ggml-kotoba-whisper-v1.0.bin?download=true</url>			
+			<fileName>ggml-kotoba-whisper-v2.0.bin</fileName>
+			<fileDesc>ggml-kotoba-whisper-v2.0</fileDesc>
+			<version>2024.1012.01</version>
+			<url>https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-ggml/resolve/main/ggml-kotoba-whisper-v2.0.bin?download=true</url>			
 		</extModule>										
 		<extModule>
 			<moduleName>whispercpp</moduleName>
-			<fileName>ggml-kotoba-whisper-v1.0-q5_0.bin</fileName>
-			<fileDesc>ggml-kotoba-whisper-v1.0-q5_0</fileDesc>
-			<version>2024.0726.01</version>
-			<url>https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-ggml/resolve/main/ggml-kotoba-whisper-v1.0-q5_0.bin?download=true</url>			
+			<fileName>ggml-kotoba-whisper-v2.0-q5_0.bin</fileName>
+			<fileDesc>ggml-kotoba-whisper-v2.0-q5_0</fileDesc>
+			<version>2024.1012.01</version>
+			<url>https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-ggml/resolve/main/ggml-kotoba-whisper-v2.0-q5_0.bin?download=true</url>			
 		</extModule>								
 	</extModuleDemand>
 </WebEntity>
