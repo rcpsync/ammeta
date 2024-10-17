@@ -45,6 +45,16 @@ span.dbVersion {
 <body>
 	<div id="versionHistory">
 <pre>
+<span class="appVersion">App Ver 8.0.79</span>
+1. AI 자막 주요 설정값인 beam size 변경가능하도록 추가
+  - 추론 후보의 범위의 수로서, 속도와 정확도에 영향을 주는 항목임 (높을수록 속도 저하, 정확도 향상)
+  - 기존에는 small 모델 이하는 5, medium은 3, 그 이상 큰 모델은 2가 적용되었다가
+    최근에 기본값 5로 일괄 적용시킨부분으로서, 변경 가능하도록 조정
+  - small 이하에서는 5, 그 이상의 모델에서는 3,2,1 등 원하는 목적에 맞게 사용하면 됩니다.
+2. 생성된 AI자막에 대해서, 번역 대상 언어 추가
+  - 기존 한글로만 번역되는 부분을, 영어로도 번역될수 있도록 추가함 
+</pre>		
+<pre>
 <span class="appVersion">App Ver 8.0.78</span>
 1. AI 자막 모듈 코어 및 모델 업그레이드
   - 코어 기능 업그레이드
