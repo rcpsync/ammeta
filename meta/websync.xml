@@ -136,6 +136,20 @@
 			<fileDesc>ggml-kotoba-whisper-v2.0-q5_0</fileDesc>
 			<version>2024.1012.01</version>
 			<url>https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-ggml/resolve/main/ggml-kotoba-whisper-v2.0-q5_0.bin?download=true</url>			
-		</extModule>								
+		</extModule>	
+		<extModule>
+			<moduleName>whispercpu</moduleName>
+			<fileName>whisper.cpp-binaries-windows-x64-cpu-latest-20241010.tar.gz</fileName>
+			<fileDesc>whisper-cpu</fileDesc>
+			<version>24.1109.01</version>
+			<url>https://huggingface.co/echogarden/echogarden-packages/resolve/main/whisper.cpp-binaries-windows-x64-cpu-latest-20241010.tar.gz?download=true</url>			
+		</extModule>		
+		<extModule>
+			<moduleName>whispercublas</moduleName>
+			<fileName>whisper.cpp-binaries-windows-x64-cublas-12.4.0-latest-20241010.tar.gz</fileName>
+			<fileDesc>whisper-cublas</fileDesc>
+			<version>24.1109.01</version>
+			<url>https://huggingface.co/echogarden/echogarden-packages/resolve/main/whisper.cpp-binaries-windows-x64-cublas-12.4.0-latest-20241010.tar.gz?download=true</url>			
+		</extModule>										
 	</extModuleDemand>
 </WebEntity>
