@@ -15,152 +15,151 @@
   "modelFace": {
     "protoFileName": "deploy.prototxt",
     "modelFileName": "res10_300x300_ssd_iter_140000.caffemodel",
-    "folder": "model_face-1.0.0",
+    "folder": "modelface",
     "fileName": "model_face.zip",
     "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/model_face.zip?download\u003dtrue",
     "urlAlt": "",
     "desc": "",
-    "latestVersioin": false,
+    "version": "1.0.0",
     "syncType": "Folder"
   },
   "modelGender": {
     "protoFileName": "deploy_gender.prototxt",
     "modelFileName": "gender_net.caffemodel",
-    "folder": "model_gender-1.0.0",
+    "folder": "modelgender",
     "fileName": "model_gender.zip",
     "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/model_gender.zip?download\u003dtrue",
     "urlAlt": "",
     "desc": "",
-    "latestVersioin": false,
+    "version": "1.0.0",
     "syncType": "Folder"
   },
   "webview": {
-    "folder": "webview2-130.0.2849",
+    "folder": "webview2",
     "fileName": "webview2.130.0.2849.80.x64.zip",
     "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/webview2.130.0.2849.80.x64.zip?download\u003dtrue",
     "urlAlt": "",
     "desc": "",
-    "latestVersioin": false,
+    "version": "130.0.2849",
     "syncType": "Folder"
   },
   "vlc": {
-    "folder": "vlc-3.0.21",
+    "folder": "vlc",
     "fileName": "vlc-3.0.21.zip",
     "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/vlc-3.0.21.zip?download\u003dtrue",
     "urlAlt": "",
     "desc": "",
-    "latestVersioin": false,
+    "version": "3.0.21",
     "syncType": "Folder"
   },
   "whipser": {
-    "folder": "whisper",
     "cpu": {
-      "folder": "whisper\\cpu-1.7.1",
+      "folder": "whispercpu",
       "fileName": "whisper.cpp-windows-x64-cpu-1.7.1.zip",
       "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/whisper.cpp-windows-x64-cpu-1.7.1.zip?download\u003dtrue",
       "urlAlt": "",
       "desc": "",
-      "latestVersioin": false,
+      "version": "1.7.1",
       "syncType": "Folder"
     },
     "cublas": {
-      "folder": "whisper\\cublas-1.7.1",
+      "folder": "whispercublas",
       "fileName": "whisper.cpp-windows-x64-cublas-1.7.1.zip",
       "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/whisper.cpp-windows-x64-cublas-1.7.1.zip?download\u003dtrue",
       "urlAlt": "",
       "desc": "",
-      "latestVersioin": false,
+      "version": "1.7.1",
       "syncType": "Folder"
     },
     "modelList": [
       {
-        "folder": "whisper\\model",
+        "folder": "whispermodel",
         "fileName": "ggml-tiny.bin",
         "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-tiny.bin?download\u003dtrue",
         "urlAlt": "",
         "desc": "77M",
-        "latestVersioin": false,
+        "version": "0.0.0",
         "syncType": "File"
       },
       {
-        "folder": "whisper\\model",
+        "folder": "whispermodel",
         "fileName": "ggml-base.bin",
         "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-base.bin?download\u003dtrue",
         "urlAlt": "",
         "desc": "148M",
-        "latestVersioin": false,
+        "version": "0.0.0",
         "syncType": "File"
       },
       {
-        "folder": "whisper\\model",
+        "folder": "whispermodel",
         "fileName": "ggml-small.bin",
         "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-small.bin?download\u003dtrue",
         "urlAlt": "",
         "desc": "488M",
-        "latestVersioin": false,
+        "version": "0.0.0",
         "syncType": "File"
       },
       {
-        "folder": "whisper\\model",
+        "folder": "whispermodel",
         "fileName": "ggml-medium.bin",
         "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-medium.bin?download\u003dtrue",
         "urlAlt": "",
         "desc": "1.53G",
-        "latestVersioin": false,
+        "version": "0.0.0",
         "syncType": "File"
       },
       {
-        "folder": "whisper\\model",
+        "folder": "whispermodel",
         "fileName": "ggml-medium-q8_0.bin",
         "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-medium-q8_0.bin?download\u003dtrue",
         "urlAlt": "",
         "desc": "823M 양자화",
-        "latestVersioin": false,
+        "version": "0.0.0",
         "syncType": "File"
       },
       {
-        "folder": "whisper\\model",
+        "folder": "whispermodel",
         "fileName": "ggml-large-v2-q8_0.bin",
         "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-large-v2-q8_0.bin?download\u003dtrue",
         "urlAlt": "",
         "desc": "1.66G 양자화",
-        "latestVersioin": false,
+        "version": "0.0.0",
         "syncType": "File"
       },
       {
-        "folder": "whisper\\model",
+        "folder": "whispermodel",
         "fileName": "ggml-large-v3-turbo.bin",
         "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-large-v3-turbo.bin?download\u003dtrue",
         "urlAlt": "",
         "desc": "1.62G",
-        "latestVersioin": false,
+        "version": "0.0.0",
         "syncType": "File"
       },
       {
-        "folder": "whisper\\model",
+        "folder": "whispermodel",
         "fileName": "ggml-large-v3-turbo-q8_0.bin",
         "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-large-v3-turbo-q8_0.bin?download\u003dtrue",
         "urlAlt": "",
         "desc": "874M 양자화",
-        "latestVersioin": false,
+        "version": "0.0.0",
         "syncType": "File"
       },
       {
-        "folder": "whisper\\model",
+        "folder": "whispermodel",
         "fileName": "ggml-kotoba-whisper-v2.0.bin",
         "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-kotoba-whisper-v2.0.bin?download\u003dtrue",
         "urlAlt": "",
         "desc": "1.52G",
-        "latestVersioin": false,
+        "version": "0.0.0",
         "syncType": "File"
       },
       {
-        "folder": "whisper\\model",
+        "folder": "whispermodel",
         "fileName": "ggml-kotoba-whisper-v2.0-q5_0.bin",
         "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-kotoba-whisper-v2.0-q5_0.bin?download\u003dtrue",
         "urlAlt": "",
         "desc": "538M 양자화",
-        "latestVersioin": false,
+        "version": "0.0.0",
         "syncType": "File"
       }
     ]
