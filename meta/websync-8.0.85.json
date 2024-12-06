@@ -1,9 +1,9 @@
 {
   "comment": "since 8.0.85. Do not edit manually.",
   "syncUrl": "https://rcpsync.github.io/ammeta/meta/websync-8.0.85.json",
-  "versionApp": "8.0.89",
+  "versionApp": "8.0.90",
   "versionDB": "8.0.89",
-  "reqVersionForUpdate": "8.0.73",
+  "reqVersionForUpdate": "8.0.90",
   "baseUrl": "https://rcpsync.github.io",
   "baseUrlRepository": "https://rcpsync.github.io/amrepo/repository",
   "baseUrlDB": "https://rcpsync.github.io/amdbs/dbs",
@@ -66,20 +66,20 @@
   "whipser": {
     "cpu": {
       "folder": "whispercpu",
-      "fileName": "whisper.cpp-windows-x64-cpu-1.7.1.zip",
-      "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/whisper.cpp-windows-x64-cpu-1.7.1.zip?download\u003dtrue",
+      "fileName": "whisper.cpp-windows-x64-cpu-1.7.2.zip",
+      "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/whisper.cpp-windows-x64-cpu-1.7.2.zip?download\u003dtrue",
       "urlAlt": "",
       "desc": "AI자막 CPU모듈",
-      "version": "1.7.1",
+      "version": "1.7.2",
       "syncType": "Folder"
     },
     "cublas": {
       "folder": "whispercublas",
-      "fileName": "whisper.cpp-windows-x64-cublas-1.7.1.zip",
-      "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/whisper.cpp-windows-x64-cublas-1.7.1.zip?download\u003dtrue",
+      "fileName": "whisper.cpp-windows-x64-cublas-1.7.2.zip",
+      "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/whisper.cpp-windows-x64-cublas-1.7.2.zip?download\u003dtrue",
       "urlAlt": "",
       "desc": "AI자막 GPU모듈",
-      "version": "1.7.1",
+      "version": "1.7.2",
       "syncType": "Folder"
     },
     "modelList": [
