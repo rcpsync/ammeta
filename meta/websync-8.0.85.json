@@ -1,8 +1,8 @@
 {
   "comment": "since 8.0.85. Do not edit manually.",
   "syncUrl": "https://rcpsync.github.io/ammeta/meta/websync-8.0.85.json",
-  "versionApp": "8.1.11",
-  "versionDB": "8.1.6",
+  "versionApp": "8.1.12",
+  "versionDB": "8.1.13",
   "reqVersionForUpdate": "8.0.94",
   "baseUrl": "https://rcpsync.github.io",
   "baseUrlRepository": "https://rcpsync.github.io/amrepo/repository",
@@ -125,6 +125,15 @@
         "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-medium-q8_0.bin?download\u003dtrue",
         "urlAlt": "",
         "desc": "AI자막 Medium 퀀텀모델 (823M)",
+        "version": "0.0.0",
+        "syncType": "File"
+      },
+      {
+        "folder": "whispermodel",
+        "fileName": "ggml-large-v2.bin",
+        "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-large-v2.bin?download\u003dtrue",
+        "urlAlt": "",
+        "desc": "AI자막 LargeV2 (2.8G)",
         "version": "0.0.0",
         "syncType": "File"
       },
