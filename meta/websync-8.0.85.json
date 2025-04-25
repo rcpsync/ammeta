@@ -1,7 +1,7 @@
 {
   "comment": "since 8.0.85. Do not edit manually.",
   "syncUrl": "https://rcpsync.github.io/ammeta/meta/websync-8.0.85.json",
-  "versionApp": "8.1.34",
+  "versionApp": "8.1.35",
   "versionDB": "8.1.32",
   "reqVersionForUpdate": "8.1.23",
   "baseUrl": "https://rcpsync.github.io",
@@ -47,11 +47,11 @@
   },
   "webview": {
     "folder": "webview2",
-    "fileName": "webview2.130.0.2849.80.x64.zip",
-    "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/webview2.130.0.2849.80.x64.zip?download\u003dtrue",
+    "fileName": "webview2.135.0.3179.98.x64.zip",
+    "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/webview2.135.0.3179.98.x64.zip?download\u003dtrue",
     "urlAlt": "",
     "desc": "WebView2",
-    "version": "130.0.2849",
+    "version": "135.0.3179",
     "syncType": "Folder"
   },
   "vlc": {
