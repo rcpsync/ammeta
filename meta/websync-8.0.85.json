@@ -1,7 +1,7 @@
 {
   "comment": "since 8.0.85. Do not edit manually.",
   "syncUrl": "https://rcpsync.github.io/ammeta/meta/websync-8.0.85.json",
-  "versionApp": "8.1.50",
+  "versionApp": "8.1.51",
   "versionDB": "8.1.44",
   "reqVersionForUpdate": "8.1.23",
   "baseUrl": "https://rcpsync.github.io",
