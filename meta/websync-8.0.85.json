@@ -1,7 +1,7 @@
 {
   "comment": "since 8.0.85. Do not edit manually.",
   "syncUrl": "https://rcpsync.github.io/ammeta/meta/websync-8.0.85.json",
-  "versionApp": "8.1.57",
+  "versionApp": "8.1.58",
   "versionDB": "8.1.52",
   "reqVersionForUpdate": "8.1.23",
   "baseUrl": "https://rcpsync.github.io",
@@ -192,5 +192,15 @@
         "syncType": "File"
       }
     ]
-  }
+  },
+  "djlModelList": [
+    {
+      "modelName": "ultranet",
+      "modelUrl": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ultranet.zip"
+    },
+    {
+      "modelName": "model_quantized.onnx",
+      "modelUrl": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/gender-classification-ONNX.zip"
+    }
+  ]
 }
