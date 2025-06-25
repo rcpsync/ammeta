@@ -1,7 +1,7 @@
 {
   "comment": "since 8.0.85. Do not edit manually.",
   "syncUrl": "https://rcpsync.github.io/ammeta/meta/websync-8.0.85.json",
-  "versionApp": "8.1.71",
+  "versionApp": "8.1.72",
   "versionDB": "8.1.70",
   "reqVersionForUpdate": "8.1.60",
   "baseUrl": "https://rcpsync.github.io",
@@ -61,6 +61,15 @@
     "urlAlt": "",
     "desc": "플레이어 코어모듈",
     "version": "3.0.21",
+    "syncType": "Folder"
+  },
+  "vlcNvida": {
+    "folder": "vlcNvida",
+    "fileName": "vlc-3.0.19-nvidia-upscaler2.zip",
+    "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/vlc-3.0.19-nvidia-upscaler2.zip?download\u003dtrue",
+    "urlAlt": "",
+    "desc": "플레이어 코어모듈",
+    "version": "3.0.19",
     "syncType": "Folder"
   },
   "whipser": {
