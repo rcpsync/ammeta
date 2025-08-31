@@ -1,23 +1,21 @@
 {
   "comment": "since 8.0.85. Do not edit manually.",
-  "syncUrl": "https://rcpsync.github.io/ammeta/meta/websync-8.0.85.json",
-  "versionApp": "8.1.89",
-  "versionDB": "8.1.81",
+  "syncUrl": "https://huggingface.co/amsyncuser/ammeta/resolve/main/meta/websync-8.0.85.json",
+  "versionApp": "8.1.90",
+  "versionDB": "8.1.90",
   "reqVersionForUpdate": "8.1.60",
-  "baseUrl": "https://rcpsync.github.io",
-  "baseUrlRepository": "https://rcpsync.github.io/amrepo/repository",
-  "baseUrlDB": "https://rcpsync.github.io/amdbs/dbs",
-  "baseUrlExt": "https://rcpsync.github.io/amext/ext",
+  "baseUrlRepository": "https://huggingface.co/amsyncuser/amrepo/resolve/main/repository",
+  "baseUrlDB": "https://huggingface.co/amsyncuser/amdbs/resolve/main/dbs",
+  "baseUrlExt": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata",
+  "urlVersionHistory": "https://huggingface.co/amsyncuser/ammeta/resolve/main/meta/versionHistory.html",
   "baseUrlSubTitle": "https://amrcp.xyz/amrcp/subtitle/",
-  "urlVersionHistory": "https://rcpsync.github.io/ammeta/meta/versionHistory.html",
   "urlRpcService": "https://amrcp.xyz/web/rpcService.php",
-  "webViewUrl": "https://bitbucket.org/amrcp/distlfs/downloads/WebView2.zip",
   "modelFace": {
     "protoFileName": "deploy.prototxt",
     "modelFileName": "res10_300x300_ssd_iter_140000.caffemodel",
     "folder": "modelface",
     "fileName": "model_face.zip",
-    "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/model_face.zip?download\u003dtrue",
+    "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/model_face.zip",
     "urlAlt": "",
     "desc": "얼굴인식 모델",
     "version": "1.0.0",
@@ -28,7 +26,7 @@
     "modelFileName": "gender_net.caffemodel",
     "folder": "modelgender",
     "fileName": "model_gender.zip",
-    "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/model_gender.zip?download\u003dtrue",
+    "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/model_gender.zip",
     "urlAlt": "",
     "desc": "성별인식 모델",
     "version": "1.0.0",
@@ -39,7 +37,7 @@
     "modelFileName": "arcfaceresnet100-11-int8.onnx",
     "folder": "modelarcface",
     "fileName": "model_arcface.zip",
-    "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/model_arcface.zip?download\u003dtrue",
+    "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/model_arcface.zip",
     "urlAlt": "",
     "desc": "얼굴비교 모델",
     "version": "1.0.0",
@@ -48,7 +46,7 @@
   "webview": {
     "folder": "webview2",
     "fileName": "webview2.135.0.3179.98.x64.zip",
-    "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/webview2.135.0.3179.98.x64.zip?download\u003dtrue",
+    "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/webview2.135.0.3179.98.x64.zip",
     "urlAlt": "",
     "desc": "WebView2",
     "version": "135.0.3179",
@@ -57,7 +55,7 @@
   "vlc": {
     "folder": "vlc",
     "fileName": "vlc-3.0.21.zip",
-    "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/vlc-3.0.21.zip?download\u003dtrue",
+    "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/vlc-3.0.21.zip",
     "urlAlt": "",
     "desc": "플레이어 코어모듈",
     "version": "3.0.21",
@@ -66,7 +64,7 @@
   "vlcNvida": {
     "folder": "vlcNvida",
     "fileName": "vlc-3.0.19-nvidia-upscaler2.zip",
-    "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/vlc-3.0.19-nvidia-upscaler2.zip?download\u003dtrue",
+    "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/vlc-3.0.19-nvidia-upscaler2.zip",
     "urlAlt": "",
     "desc": "플레이어 코어모듈",
     "version": "3.0.19",
@@ -76,7 +74,7 @@
     "cpu": {
       "folder": "whispercpu",
       "fileName": "whisper.cpp-windows-x64-cpu-1.7.5.zip",
-      "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/whisper.cpp-windows-x64-cpu-1.7.5.zip?download\u003dtrue",
+      "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/whisper.cpp-windows-x64-cpu-1.7.5.zip",
       "urlAlt": "",
       "desc": "AI자막 CPU모듈",
       "version": "1.7.5",
@@ -85,7 +83,7 @@
     "cublas": {
       "folder": "whispercublas",
       "fileName": "whisper.cpp-windows-x64-cublas-1.7.5.zip",
-      "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/whisper.cpp-windows-x64-cublas-1.7.5.zip?download\u003dtrue",
+      "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/whisper.cpp-windows-x64-cublas-1.7.5.zip",
       "urlAlt": "",
       "desc": "AI자막 GPU모듈",
       "version": "1.7.5",
@@ -94,7 +92,7 @@
     "vulkan": {
       "folder": "whispervulkan",
       "fileName": "whisper.cpp-windows-x64-vulkan-1.7.5.zip",
-      "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/whisper.cpp-windows-x64-vulkan-1.7.5.zip?download\u003dtrue",
+      "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/whisper.cpp-windows-x64-vulkan-1.7.5.zip",
       "urlAlt": "",
       "desc": "AI자막 GPU모듈",
       "version": "1.7.5",
@@ -104,7 +102,7 @@
       {
         "folder": "whispermodel",
         "fileName": "ggml-tiny.bin",
-        "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-tiny.bin?download\u003dtrue",
+        "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/ggml-tiny.bin",
         "urlAlt": "",
         "desc": "AI자막 Tiny모델 (77M)",
         "version": "0.0.0",
@@ -113,7 +111,7 @@
       {
         "folder": "whispermodel",
         "fileName": "ggml-base.bin",
-        "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-base.bin?download\u003dtrue",
+        "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/ggml-base.bin",
         "urlAlt": "",
         "desc": "AI자막 Base모델 (148M)",
         "version": "0.0.0",
@@ -122,7 +120,7 @@
       {
         "folder": "whispermodel",
         "fileName": "ggml-small.bin",
-        "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-small.bin?download\u003dtrue",
+        "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/ggml-small.bin",
         "urlAlt": "",
         "desc": "AI자막 Small모델 (488M)",
         "version": "0.0.0",
@@ -131,7 +129,7 @@
       {
         "folder": "whispermodel",
         "fileName": "ggml-medium.bin",
-        "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-medium.bin?download\u003dtrue",
+        "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/ggml-medium.bin",
         "urlAlt": "",
         "desc": "AI자막 Medium모델 (1.53G)",
         "version": "0.0.0",
@@ -140,7 +138,7 @@
       {
         "folder": "whispermodel",
         "fileName": "ggml-medium-q8_0.bin",
-        "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-medium-q8_0.bin?download\u003dtrue",
+        "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/ggml-medium-q8_0.bin",
         "urlAlt": "",
         "desc": "AI자막 Medium 퀀텀모델 (823M)",
         "version": "0.0.0",
@@ -149,7 +147,7 @@
       {
         "folder": "whispermodel",
         "fileName": "ggml-large-v2.bin",
-        "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-large-v2.bin?download\u003dtrue",
+        "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/ggml-large-v2.bin",
         "urlAlt": "",
         "desc": "AI자막 LargeV2 (2.8G)",
         "version": "0.0.0",
@@ -158,7 +156,7 @@
       {
         "folder": "whispermodel",
         "fileName": "ggml-large-v2-q8_0.bin",
-        "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-large-v2-q8_0.bin?download\u003dtrue",
+        "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/ggml-large-v2-q8_0.bin",
         "urlAlt": "",
         "desc": "AI자막 LargeV2 퀀텀모델 (1.66G 양자화)",
         "version": "0.0.0",
@@ -167,7 +165,7 @@
       {
         "folder": "whispermodel",
         "fileName": "ggml-large-v3-turbo.bin",
-        "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-large-v3-turbo.bin?download\u003dtrue",
+        "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/ggml-large-v3-turbo.bin",
         "urlAlt": "",
         "desc": "AI자막 LargeV3 터보모델 (1.62G)",
         "version": "0.0.0",
@@ -176,7 +174,7 @@
       {
         "folder": "whispermodel",
         "fileName": "ggml-large-v3-turbo-q8_0.bin",
-        "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-large-v3-turbo-q8_0.bin?download\u003dtrue",
+        "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/ggml-large-v3-turbo-q8_0.bin",
         "urlAlt": "",
         "desc": "AI자막 LargeV3 터보 퀀텀모델 (874M)",
         "version": "0.0.0",
@@ -185,7 +183,7 @@
       {
         "folder": "whispermodel",
         "fileName": "ggml-kotoba-whisper-v2.0.bin",
-        "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-kotoba-whisper-v2.0.bin?download\u003dtrue",
+        "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/ggml-kotoba-whisper-v2.0.bin",
         "urlAlt": "",
         "desc": "AI자막 일본어 전용모델 (1.52G)",
         "version": "0.0.0",
@@ -194,7 +192,7 @@
       {
         "folder": "whispermodel",
         "fileName": "ggml-kotoba-whisper-v2.0-q5_0.bin",
-        "url": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ggml-kotoba-whisper-v2.0-q5_0.bin?download\u003dtrue",
+        "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/ggml-kotoba-whisper-v2.0-q5_0.bin",
         "urlAlt": "",
         "desc": "AI자막 일본어 퀀텀모델 (538M)",
         "version": "0.0.0",
@@ -205,11 +203,11 @@
   "djlModelList": [
     {
       "modelName": "ultranet",
-      "modelUrl": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/ultranet.zip"
+      "modelUrl": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/ultranet.zip"
     },
     {
       "modelName": "model_quantized.onnx",
-      "modelUrl": "https://huggingface.co/amsynchub/amsyncpackage/resolve/main/gender-classification-ONNX.zip"
+      "modelUrl": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/gender-classification-ONNX.zip"
     }
   ]
 }
