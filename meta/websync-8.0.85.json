@@ -1,9 +1,9 @@
 {
   "comment": "since 8.0.85. Do not edit manually.",
   "syncUrl": "https://huggingface.co/amsyncuser/ammeta/resolve/main/meta/websync-8.0.85.json",
-  "versionApp": "8.2.3",
-  "versionDB": "8.2.2",
-  "reqVersionForUpdate": "8.1.92",
+  "versionApp": "8.2.5",
+  "versionDB": "8.2.4",
+  "reqVersionForUpdate": "8.2.4",
   "baseUrlRepository": "https://huggingface.co/amsyncuser/amrepo/resolve/main/repository",
   "baseUrlDB": "https://huggingface.co/amsyncuser/amdbs/resolve/main/dbs",
   "baseUrlExt": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata",
@@ -45,20 +45,20 @@
   },
   "webview": {
     "folder": "webview2",
-    "fileName": "webview2.135.0.3179.98.x64.zip",
-    "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/webview2.135.0.3179.98.x64.zip",
+    "fileName": "webview2.143.0.3650.96.x64.zip",
+    "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/webview2.143.0.3650.96.x64.zip",
     "urlAlt": "",
     "desc": "WebView2",
-    "version": "135.0.3179",
+    "version": "143.0.3650",
     "syncType": "Folder"
   },
   "vlc": {
     "folder": "vlc",
-    "fileName": "vlc-3.0.21.zip",
-    "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/vlc-3.0.21.zip",
+    "fileName": "vlc-3.0.22.zip",
+    "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/vlc-3.0.22.zip",
     "urlAlt": "",
     "desc": "플레이어 코어모듈",
-    "version": "3.0.21",
+    "version": "3.0.22",
     "syncType": "Folder"
   },
   "vlcNvida": {
@@ -73,20 +73,20 @@
   "whipser": {
     "cpu": {
       "folder": "whispercpu",
-      "fileName": "whisper.cpp-windows-x64-cpu-1.7.5.zip",
-      "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/whisper.cpp-windows-x64-cpu-1.7.5.zip",
+      "fileName": "whisper.cpp-windows-x64-cpu-1.8.2.zip",
+      "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/whisper.cpp-windows-x64-cpu-1.8.2.zip",
       "urlAlt": "",
       "desc": "AI자막 CPU모듈",
-      "version": "1.7.5",
+      "version": "1.8.2",
       "syncType": "Folder"
     },
     "cublas": {
       "folder": "whispercublas",
-      "fileName": "whisper.cpp-windows-x64-cublas-1.7.5.zip",
-      "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/whisper.cpp-windows-x64-cublas-1.7.5.zip",
+      "fileName": "whisper.cpp-windows-x64-cublas-1.8.2.zip",
+      "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/whisper.cpp-windows-x64-cublas-1.8.2.zip",
       "urlAlt": "",
       "desc": "AI자막 GPU모듈",
-      "version": "1.7.5",
+      "version": "1.8.2",
       "syncType": "Folder"
     },
     "vulkan": {
