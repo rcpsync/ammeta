@@ -1,7 +1,7 @@
 {
   "comment": "since 8.0.85. Do not edit manually.",
   "syncUrl": "https://huggingface.co/amsyncuser/ammeta/resolve/main/meta/websync-8.0.85.json",
-  "versionApp": "8.2.7",
+  "versionApp": "8.2.9",
   "versionDB": "8.2.8",
   "reqVersionForUpdate": "8.2.4",
   "baseUrlRepository": "https://huggingface.co/amsyncuser/amrepo/resolve/main/repository",
