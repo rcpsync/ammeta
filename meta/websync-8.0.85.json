@@ -1,7 +1,7 @@
 {
   "comment": "since 8.0.85. Do not edit manually.",
   "syncUrl": "https://huggingface.co/amsyncuser/ammeta/resolve/main/meta/websync-8.0.85.json",
-  "versionApp": "8.2.20",
+  "versionApp": "8.2.23",
   "versionDB": "8.2.22",
   "reqVersionForUpdate": "8.2.4",
   "baseUrlRepository": "https://huggingface.co/amsyncuser/amrepo/resolve/main/repository",
@@ -73,20 +73,20 @@
   "whipser": {
     "cpu": {
       "folder": "whispercpu",
-      "fileName": "whisper.cpp-windows-x64-cpu-1.8.2.zip",
-      "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/whisper.cpp-windows-x64-cpu-1.8.2.zip",
+      "fileName": "whisper.cpp-windows-x64-cpu-1.8.4.zip",
+      "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/whisper.cpp-windows-x64-cpu-1.8.4.zip",
       "urlAlt": "",
       "desc": "AI자막 CPU모듈",
-      "version": "1.8.2",
+      "version": "1.8.4",
       "syncType": "Folder"
     },
     "cublas": {
       "folder": "whispercublas",
-      "fileName": "whisper.cpp-windows-x64-cublas-1.8.2.zip",
-      "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/whisper.cpp-windows-x64-cublas-1.8.2.zip",
+      "fileName": "whisper.cpp-windows-x64-cublas-1.8.4.zip",
+      "url": "https://huggingface.co/amsyncuser/amext/resolve/main/extdata/whisper.cpp-windows-x64-cublas-1.8.4.zip",
       "urlAlt": "",
       "desc": "AI자막 GPU모듈",
-      "version": "1.8.2",
+      "version": "1.8.4",
       "syncType": "Folder"
     },
     "vulkan": {
